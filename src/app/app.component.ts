@@ -4,17 +4,7 @@ import { AngularFullpageModule } from '@fullpage/angular-fullpage';
 
 @Component({
   selector: 'app-root',
-  template: `
-    <div fullpage id="fullpage2" [options]="config" (ref)="getRef($event)">
-    <div class="section"><h1>fullPage.js</h1></div>
-    <div class="section">
-      <div class="slide"><h1>Section 2</h1></div>
-      <div class="slide"><h1>Slide 2.2</h1></div>
-      <div class="slide"><h1>Slide 2.3</h1></div>
-    </div>
-    <div class="section"><h1>Section 3</h1></div>
-  </div>
-  `,
+  templateUrl: './app.component.html',
   standalone: true,
   imports: [CommonModule, AngularFullpageModule]
 })

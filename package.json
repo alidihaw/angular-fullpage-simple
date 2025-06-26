@@ -15,7 +15,7 @@
     "@angular/core": "^18.1.0",
     "@angular/platform-browser": "^18.1.0",
     "@angular/platform-browser-dynamic": "^18.1.0",
-    "@fullpage/angular-fullpage": "^0.1.6",
+    "@fullpage/angular-fullpage": "^0.1.8",
     "fullpage.js": "4.0.35",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
